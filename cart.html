@@ -8,6 +8,34 @@
 </head>
 
 <body>
-
+  <div id="container">
+    <div id = "header">
+        <div id = "logo-container">
+            <img class="logo" src=" "/>
+        </div>
+        <div class="button">
+            <button type ="button" id="btn-cart">Cart</button>
+            <button type ="button" id="btn-bookings">Bookings</button>
+        </div>
+    </div>
+    <div id = "content">
+        <div id= "card">
+                <p>My cart</p>
+                <div class="trip">
+                    <span class="route">${trip.departure} > ${trip.arrival}</span>
+                    <span class="time">${trip.time}</span>
+                    <span class="price">${trip.price}</span>
+                    <button class="delete-button">x</button>
+                </div>
+                <div id = "purchase">
+                    <span id="total">Total : ${trip.price}</span>
+                    <button class="purchase-button">Purchase</button>
+                </div>
+        </div>
+    </div>
+    <div id = "footer"></div>
+  </div>  
+    
+   <script src="script.js"></script> 
 </body>
 </html>
