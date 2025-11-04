@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>Cart</title>
+    <title>Bookings</title>
 </head>
 
 <body>
@@ -20,17 +20,14 @@
     </div>
     <div id = "content">
         <div id= "card">
-                <p>My cart</p>
+                <p>My bookings</p>
                 <div class="trip">
                     <span class="route">${trip.departure} > ${trip.arrival}</span>
                     <span class="time">${trip.time}</span>
                     <span class="price">${trip.price}</span>
-                    <button class="delete-button">x</button>
+                    <span class="countdown">Departure in ${trip.countdown} hours</span>
                 </div>
-                <div id = "purchase">
-                    <span id="total">Total : ${trip.price}</span>
-                    <button class="purchase-button">Purchase</button>
-                </div>
+                <p id="greentext">Enjoy your travels with Tickethack!</p>
         </div>
     </div>
     <div id = "footer"></div>
