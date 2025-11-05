@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylebookings.css" />
     <title>Bookings</title>
 </head>
 
@@ -11,9 +11,9 @@
   <div id="container">
     <div id = "header">
         <div id = "logo-container">
-            <img class="logo" src=" "/>
+            Tickethack
         </div>
-        <div class="button">
+        <div id="nav-buttons">
             <button type ="button" id="btn-cart">Cart</button>
             <button type ="button" id="btn-bookings">Bookings</button>
         </div>
@@ -21,11 +21,11 @@
     <div id = "content">
         <div id= "card">
                 <p>My bookings</p>
-                <div class="trip">
-                    <span class="route">${trip.departure} > ${trip.arrival}</span>
-                    <span class="time">${trip.time}</span>
-                    <span class="price">${trip.price}</span>
-                    <span class="countdown">Departure in ${trip.countdown} hours</span>
+                <div id="trip-card">
+                    <span class="route">Marseille > Lyon</span>
+                    <span class="time">20:09</span>
+                    <span class="price">103€</span>
+                    <span class="countdown">Departure in 5 hours</span>
                 </div>
                 <p id="greentext">Enjoy your travels with Tickethack!</p>
         </div>
