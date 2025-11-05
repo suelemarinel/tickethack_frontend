@@ -142,7 +142,7 @@ body {
 }
 #btn-search {
     padding: 10px;
-    margin-top: 150px;
+    margin-top: 190px;
     margin-left: 20px;
     margin-right: 20px;
     border: 0px;
@@ -156,12 +156,32 @@ body {
     background-color: white;
     grid-area: 1/7/9/11;
     border-radius: 10px;
-
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0,5fr 5fr 0,5fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 } 
 
+.trip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
 
+#bookyourtrip {
+    padding-top: 50px;
+    margin-top: 50px;
+    font-size : 20px;
+    border-top: 2px rgb(87, 179, 116) solid;
+}
+
+#bookyourtrip-img {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px;
+    justify-self: center
+}
 
 
 
