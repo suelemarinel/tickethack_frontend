@@ -167,6 +167,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width:100%;
+    height: 100%;
 }   
 
 #bookyourtrip {
@@ -176,12 +178,44 @@ body {
     border-top: 2px rgb(87, 179, 116) solid;
 }
 
-#bookyourtrip-img {
+#bookyourtripimg {
     width: 50%;
     height: 50%;
-    margin-left: 100px;
     justify-self: center
 }
 
+#notfound {
+    padding-top: 50px;
+    margin-top: 50px;
+    font-size : 20px;
+    border-top: 2px rgb(87, 179, 116) solid;
+}
+
+#notfoundimg {
+    width: 40%;
+    height: 40%;
+    justify-self: center
+}
+
+.search-result {
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 15px 7.5px 15px 7.5px;
+    margin:7.5px;
+    background-color: rgb(232, 229, 229);
+    border-radius: 5px;
+}
+
+.book-button {
+    background-color: rgb(87, 179, 116);
+    color: white;
+    border: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 5px 8px 5px 8px;
+    border-radius: 3px;
+}
 
 
